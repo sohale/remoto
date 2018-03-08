@@ -315,9 +315,9 @@ public class ConfigurationDAO extends BasicDAO
     	return general;
 	}
     
-    private List loadJoints()
+    private List<JointVO> loadJoints()
 	{
-    	List list = new ArrayList();
+    	List<JointVO> list = new ArrayList<>();
     	
     	try
     	{
@@ -350,9 +350,9 @@ public class ConfigurationDAO extends BasicDAO
     	return list;
 	}
     
-    private List loadNucleus()
+    private List<Nucleus> loadNucleus()
 	{
-    	List list = new ArrayList();
+    	List<Nucleus> list = new ArrayList<>();
     	
     	try
     	{
@@ -394,9 +394,9 @@ public class ConfigurationDAO extends BasicDAO
 	}
 
 	
-    private List loadCategories()
+    private List<Category> loadCategories()
 	{
-    	List list = new ArrayList();
+    	List<Category> list = new ArrayList<>();
     	
     	try
     	{
